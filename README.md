@@ -5,7 +5,7 @@ This is a simple docker container that runs a noVNC server and forwards all traf
 ## Usage
 
 ```bash
-docker run -d -p 8080:8080 -e VNC_HOST=your-vnc-host -e VNC_PORT=your-vnc-port
+docker run -it -p 8080:8080 -e VNC_HOST=your-vnc-host -e VNC_PORT=your-vnc-port lauksva/novnc-passthrough:latest
 ```
 
 ## Environment Variables
